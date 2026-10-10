@@ -1,0 +1,12 @@
+﻿ultralytics
+torch
+torchvision
+fastapi
+uvicorn[standard]
+python-multipart
+streamlit
+requests
+pillow
+pandas
+matplotlib
+opencv-python

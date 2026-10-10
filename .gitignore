@@ -1,0 +1,30 @@
+@"
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Donnees du dataset
+data/raw/
+data/processed/
+
+# Entrainements et checkpoints
+runs/
+*.pt
+*.pth
+
+# Configuration locale
+.env
+.streamlit/secrets.toml
+
+# Editeurs et systeme
+.vscode/
+.DS_Store
+Thumbs.db
+"@ | Set-Content -Encoding utf8 .\.gitignore
