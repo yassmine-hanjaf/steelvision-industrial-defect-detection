@@ -28,3 +28,5 @@ runs/
 .DS_Store
 Thumbs.db
 "@ | Set-Content -Encoding utf8 .\.gitignore
+# Modele YOLO necessaire au deploiement
+!models/best.pt
